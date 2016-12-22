@@ -14,8 +14,6 @@
 .box{
 		border:0px solid #000;
 		margin:10px 0 ;
-	  max-width:calc(100%-10px);
-		width:auto;
 		border-radius:0 50px 50px 0 ;
 		background:rgba(255,255,255,0.20);
 		display:block;
@@ -26,6 +24,5 @@
   #box{
     width:95%;
     margin:5% auto;
-    
   }
 }
