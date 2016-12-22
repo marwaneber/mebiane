@@ -15,7 +15,7 @@ var maxN = a.sort(function(a,b){return b-a;})[0];
 		boxes[i]=document.createElement("DIV");
 		boxes[i].className = "box";
 		boxes[i].innerHTML = ab[i];
-		boxes[i].style.width = width+"%";
+		boxes[i].style.width ="calc("+ width +"% -10px)";
 	}
 	for(var i=0;i<boxes.length;i++){
 		board.appendChild(boxes[i]);
