@@ -8,7 +8,7 @@ var mainArray = [],
 
 // Define of Map Function.
 function map(value, min1, max1, min2, max2){
-	  return value*((min1+max1)/(min2+max2));
+	  return value*((min2+max2)/(min1+max1));
 }
 
 // Define of Setup Function.
