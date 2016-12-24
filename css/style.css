@@ -1,3 +1,4 @@
+/* Set Some Style for the board*/
 #board{
 		width:50%;
 		padding:2px 1px 1px 0px;
@@ -9,8 +10,10 @@
 		max-height:100%;
 		box-shadow:0px 0px 5px #888;
 		text-transform:capitalize;
-		background:linear-gradient(90deg,skyblue,#4080ff);
+		background:linear-gradient(90deg,#0093ff,#4bff30);
 }
+
+/* Set Some Style for the col*/
 .col{
 		border:0px solid #000;
 		margin:10px 0 ;
@@ -19,7 +22,23 @@
 		display:block;
 		padding:5px 10px 10px 5px;
 		text-align:right;
+	  animation: anime ease-out 1.6s ;
+		font-family: Arial;
 }
+
+/* Create Some Animation for the col*/
+@keyframes anime{
+	from{
+		max-width : 0;
+		opacity: 0.5;
+	}
+	to{
+		max-width : 100%;
+		opacity: 1;
+	}
+}
+
+/* Make responsive */
 @media screen {
   #board{
     width:95%;
