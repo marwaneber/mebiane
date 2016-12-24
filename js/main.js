@@ -26,7 +26,7 @@ function setup(){
 		cols[i].innerHTML = mainArray[i];
 		// Mapping of width .
 		widthCols = map(mainArray[i],0,20,0,100);
-		cols[i].style.width ="calc("+ widthCols +"% - 10px)";
+		cols[i].style.width ="calc("+ widthCols +"% - 20px)";
 	}
 }
 
