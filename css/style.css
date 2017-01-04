@@ -1,29 +1,44 @@
+/* Set Some Style for section of Mebiane*/
+.mebiane{
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #888;
+	padding: 10px 0;
+	background: #e0e0e0;
+	width: 300px;
+	margin: 0 auto;
+}
+
 /* Set Some Style for the board*/
 #board{
-		width:50%;
-		padding:2px 1px 1px 0px;
-		margin:10px auto;
-		font-size:20px;
-		text-align:right;
-		border-radius:5px;
-		color:rgba(255,255,255,1);
-		max-height:100%;
-		box-shadow:0px 0px 5px #888;
-		text-transform:capitalize;
-		background:linear-gradient(90deg,#0093ff,#4bff30);
+	width: 100%;
+	padding: 2px 1px 1px 0px;
+	font-size: 20px;
+	text-align: right;
+	text-transform: capitalize;
+	background: linear-gradient(90deg,skyblue,#4080ff);
 }
 
 /* Set Some Style for the col*/
 .col{
 		border:0px solid #000;
 		margin:10px 0 ;
-		border-radius:0 50px 50px 0 ;
-		background:rgba(255,255,255,0.20);
+		border-radius:0 20px 20px 0 ;
+		background:rgba(255,255,255,0.20); 
+		color:rgba(255,255,255,1);
 		display:block;
 		padding:5px 10px 10px 5px;
 		text-align:right;
-	  animation: anime ease-out 1.6s ;
-		font-family: Arial;
+	  	animation: anime ease-out 2s ;
+}
+
+/* Set Some Style for logo*/
+#logo{
+	padding: 10px;
+	text-align: right;
+}
+.logoImg{
+	max-width:100%;
+	height: 30px;
 }
 
 /* Create Some Animation for the col*/
@@ -37,11 +52,7 @@
 		opacity: 1;
 	}
 }
-
-/* Make responsive */
 @media screen {
   #board{
-    width:95%;
-    margin:5% auto;
   }
 }
