@@ -1,11 +1,58 @@
+/* Set some style for body*/
+body{
+	font-family: Arial;
+	background: #E4F1FE;
+	height: 100%;
+}
+
+/* Set some style for header */
+.header{
+	height: 50px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 5px solid #08a;
+    text-align: right;
+	box-shadow: 0px 0px 5px #888;
+}
+.logo{
+	height: 100%;
+}
+.followMe{
+	height: 100%;
+	float: left;
+}
+.followMe .link{
+	text-decoration: none;
+	color: #1e8bc3;
+	font-size: 45px;
+	text-shadow: 1px 0 2px #1e8bc3;
+	margin: 0 8px;
+}
+.followMe .link:hover{
+	color: #19B5FE;
+}
+
+/* Set Some Style for Footer*/
+.footer{
+	position: absolute;
+	padding: 15px;
+	background: #e0e0e0;
+	border-top: 5px #08a solid;
+	color: #333;
+	bottom: 0;
+	width: auto;
+}
+
 /* Set Some Style for section of Mebiane*/
 .mebiane{
-	border-radius: 10px;
+	border-radius: 8px;
 	box-shadow: 0px 0px 5px #888;
 	padding: 10px 0;
 	background: #e0e0e0;
 	width: 300px;
-	margin: 0 auto;
+	margin: 20px auto;
+    border-bottom: 5px solid #08a;
 }
 
 /* Set Some Style for the board*/
