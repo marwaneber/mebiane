@@ -1,19 +1,27 @@
+/* ------------------------------------
+*  Design by 		: Marwane Beriich 
+*  Theme Name 		: Mebiane Theme
+*  Version 			: 1.0 (beta)
+*  Last Edite at	: 16/02/2017
+---------------------------------------*/
+
 /* Set some style for body*/
 body{
 	font-family: Arial;
 	background: #E4F1FE;
-	height: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 /* Set some style for header */
 .header{
-	height: 50px;
-    background: #eee;
-    padding: 10px;
-    border-radius: 8px;
-    border-bottom: 5px solid #08a;
-    text-align: right;
-	box-shadow: 0px 0px 5px #888;
+	height: 30px;
+	background: #eee;
+	padding: 10px;
+	border-bottom: 3px solid #08a;
+	text-align: right;
+	box-shadow: 0px 0px 5px rgba(55,55,55,0.5);
 }
 .logo{
 	height: 100%;
@@ -25,39 +33,77 @@ body{
 .followMe .link{
 	text-decoration: none;
 	color: #1e8bc3;
-	font-size: 45px;
-	text-shadow: 1px 0 2px #1e8bc3;
+	font-size: 30px;
 	margin: 0 8px;
+	line-height: 30px;
+	-webkit-transition: all 0.3s cubic-bezier(.6,-0.28,.74,.05);
+	-moz-transition: all 0.3s cubic-bezier(.6,-0.28,.74,.05);
+	-ms-transition: all 0.3s cubic-bezier(.6,-0.28,.74,.05);
+	-o-transition: all 0.3s cubic-bezier(.6,-0.28,.74,.05);
+	transition: all 0.3s cubic-bezier(.6,-0.28,.74,.05);
 }
 .followMe .link:hover{
 	color: #19B5FE;
+	text-shadow: 0 0 2px 1px #1e8bc3;
 }
 
 /* Set Some Style for Footer*/
 .footer{
-	position: absolute;
-	padding: 15px;
-	background: #e0e0e0;
-	border-top: 5px #08a solid;
-	color: #333;
-	bottom: 0;
-	width: auto;
+	background: #e6e6e6;
+	border-top: 3px #fff solid;
+	color: #4D4D4D;
+	text-align: left;
 }
-
+.footer .about{
+	width: 35%;
+	padding: 20px 0;
+	display: inline-block;
+}
+.footer .about p{
+	width: 80%;
+	margin: 0 auto;
+	text-align: right;
+	padding: 10px 15px;
+	font-size: 24px;
+	font-family: Tahoma;
+}
+.footer .about img{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	border-bottom: 1px dashed #555;
+	padding: 0 0 10px 0;
+}
+.footer .author{
+	padding: 10px;
+	background: #44c7e7;
+	margin: 0;
+	color: #b05353;
+}
+.footer a{
+	text-decoration: underline;
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+.footer a:hover{
+	text-decoration: none;
+}
 /* Set Some Style for section of Mebiane*/
 .mebiane{
-	border-radius: 8px;
-	box-shadow: 0px 0px 5px #888;
-	padding: 10px 0;
+	box-shadow: 0px 0px 4px 1px rgb(174, 202, 255);
 	background: #e0e0e0;
 	width: 300px;
 	margin: 20px auto;
-    border-bottom: 5px solid #08a;
+	border: 1px solid #bababa;
 }
 
 /* Set Some Style for the board*/
 #board{
-	width: 100%;
+	max-width: 100%;
 	padding: 2px 1px 1px 0px;
 	font-size: 20px;
 	text-align: right;
@@ -67,15 +113,17 @@ body{
 
 /* Set Some Style for the col*/
 .col{
-		border:0px solid #000;
-		margin:10px 0 ;
-		border-radius:0 20px 20px 0 ;
-		background:rgba(255,255,255,0.20); 
-		color:rgba(255,255,255,1);
-		display:block;
-		padding:5px 10px 10px 5px;
-		text-align:right;
-	  	animation: anime ease-out 2s ;
+	border: 0px solid #000;
+    margin: 10px 0;
+    line-height: 18px;
+    border-radius: 0 2px 2px 0;
+    font-size: 18px;
+    background: rgba(255,255,255,0.20);
+    color: rgba(255,255,255,1);
+    display: block;
+    padding: 10px 10px 10px 5px;
+    text-align: right;
+    animation: anime ease-out 2s;
 }
 
 /* Set Some Style for logo*/
@@ -98,8 +146,4 @@ body{
 		max-width : 100%;
 		opacity: 1;
 	}
-}
-@media screen {
-  #board{
-  }
 }
