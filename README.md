@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+<div style="text-align:center"><img src ="images/logo.png" height="150px" /></div>
 
-You can use the [editor on GitHub](https://github.com/marwaneber/mebiane/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# ![Mebiane Icon](images/logo.png) Mebiane
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Is a JavaScript library allows you to **create**, **edit** and **visualise** your data, in a simple way and on many forms.
 
-### Markdown
+## Create data (or generate data)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can generate your own data by using our **POWERFUL** tools, and below you can find out our range of data types you can create:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marwaneber/mebiane/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Addresses
+2. Names
+3. Passwords
+4. Phone Numbers (every country in the world)
+5. Usernames
+6. and more...
