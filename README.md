@@ -1,6 +1,6 @@
 <div style="text-align:center"><img src ="images/logo.png" height="150px" /></div>
 
-# ![Mebiane Icon](images/logo.png) Mebiane
+# :bar_chart: Mebiane
 
 Is a JavaScript library allows you to **create**, **edit** and **visualise** your data, in a simple way and on many forms.
 
@@ -14,3 +14,8 @@ You can generate your own data by using our **POWERFUL** tools, and below you ca
 4. Phone Numbers (every country in the world)
 5. Usernames
 6. and more...
+
+> There below are a list of tasks TODO: in the next week
+
+- [ ] Sketch the adding part on the system
+- [ ] Designing the adding part on the system
